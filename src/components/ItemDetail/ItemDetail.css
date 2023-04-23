@@ -1,0 +1,59 @@
+/*sell*/
+.sell-img {
+    width: 90%;
+    margin: 5px 5%;
+  }
+  .sell-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .sell-aside h2 {
+    text-align: center;
+  }
+  .sell-aside h2, .sell-aside h3, .sell-aside h4 {
+    color: #000000;
+    margin: 2% 0;
+    font-size: 28px;
+  }
+  .sell-card-list {
+    list-style: none;
+  }
+  .sell-card-list li {
+    display: inline-block;
+  }
+  .sell-card-list li img {
+    width: 40px;
+  }
+  .sell-shipping-list {
+    list-style: none;
+  }
+  .sell-shipping-list li {
+    display: inline-block;
+  }
+  .sell-shipping-list li img {
+    width: 50px;
+  }
+  .sell-description {
+    width: 90%;
+    margin: 20px 5%;
+  }
+  .sell-description h2 {
+    color: #000000;
+  }
+  .sell-description table {
+    width: 80%;
+    margin: 10px 10%;
+  }
+  .sell-form {
+    width: 50%;
+    margin: 10% 25%;
+  }
+  
+  @media (min-width: 768px) {
+    .sell-description table {
+      width: 50%;
+      margin: 15px 25%;
+    }
+  }

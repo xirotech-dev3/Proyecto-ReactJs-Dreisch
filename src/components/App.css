@@ -16,26 +16,29 @@
   margin-left: 10px;
   color: #ffffff;
 }
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 .navbar-categorias {
   width: 100%;
-  padding-top: 10px
+  padding-top: 10px;
 }
-.navbar-categorias ul {
+.navbar-categorias a {
   list-style: none;
   display: flex;
   justify-content: space-around;
-}
-.categoria-item a{
   text-decoration: none;
+}
+.categoria-item p{  
   color: #ffffff;
   padding: 10px;
 }
-.categoria-item a:hover{
-  text-decoration: none;
+.categoria-item p:hover{
   color: #000000;
   background-color: #ffffff;
   border-radius: 30px;
-
 }
 .container-nav {
   justify-content: space-around !important;
@@ -69,7 +72,6 @@
   .navbar-nav {
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
     width: 100%;
   }
 }
